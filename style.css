@@ -10,6 +10,7 @@
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
+  overflow-y: scroll;
 }
 
 .card {
@@ -133,7 +134,7 @@
   .card {
     margin-top: 102px;
     width: 450px;
-    height: 697px;
+    height: 681px;
     padding-bottom: 16px;
   }
   .card-title {
