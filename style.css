@@ -3,8 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 100vw;
-  height: 100vh;
   background-color: #e0e8ff;
   background-image: url('./assets/images/pattern-background-mobile.svg');
   background-position: top;
@@ -125,6 +123,18 @@
   cursor: pointer;
   letter-spacing: 0px;
 }
+.credits {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 14px;
+  color: #1f2e55;
+  margin-top: 16px;
+}
+
+.credits-link {
+  color: #382ae1;
+  font-weight: 700;
+  text-decoration: none;
+}
 
 /* DESKTOP VERSION */
 @media screen and (min-width: 1440px) {
@@ -188,4 +198,7 @@
 }
 .cancel__button:hover {
   color: #1f2e55;
+}
+.credits-link:hover {
+  color: #766cf1;
 }
